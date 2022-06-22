@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aaaa.View.Start"
+             x:Name="thisStart"
+             xmlns:vm="clr-namespace:aaaa.ViewModel"
+             xmlns:model="clr-namespace:aaaa.Model">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="Center" ColumnDefinitions="*" Margin="10">
+                <Button Grid.Column="0" Text="Interfaz" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Pagina1"></Button>
+                <Button Grid.Column="1" Text="Triggers" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Pagina2"></Button>
+                <Button Grid.Column="2" Text="SumaResta" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Pagina3"></Button>
+                <Button Grid.Column="3" Text="Aerolinea" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Clicked="Pagina4"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

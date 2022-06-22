@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aaaa.View.Triggers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Transparent">
+            <Entry Text="0" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" x:Name="Numero">
+                    <Entry.Triggers>
+                        <DataTrigger TargetType="Entry"
+                            Binding="{Binding Source={x:Reference Numero},Path=Text}"
+                                Value="5">
+                            <Setter Property="BackgroundColor" Value="Red" />
+                            <Setter Property="FontSize" Value="20" />
+                        </DataTrigger>
+
+                        <DataTrigger TargetType="Entry"
+                            Binding="{Binding Source={x:Reference Numero},Path=Text}"
+                                Value="10">
+                            <Setter Property="BackgroundColor" Value="Yellow" />
+                            <Setter Property="FontSize" Value="25" />
+                        </DataTrigger>
+
+                        <DataTrigger TargetType="Entry"
+                            Binding="{Binding Source={x:Reference Numero},Path=Text}"
+                                Value="15">
+                            <Setter Property="BackgroundColor" Value="Green" />
+                            <Setter Property="FontSize" Value="30" />
+                        </DataTrigger>
+                        
+                    </Entry.Triggers>
+            </Entry>
+            </Frame>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

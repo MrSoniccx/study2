@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aaaa.View.Interfaz">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowDefinitions="40*,60*">
+                <StackLayout BackgroundColor="CornflowerBlue">
+                <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="10" >
+                    <BoxView Color="Aqua" WidthRequest="40" HeightRequest="40" CornerRadius="5"></BoxView>
+                    <StackLayout Orientation="Vertical">
+                    <Label FontAttributes="Bold" Text="Karla" FontSize="Micro"></Label>
+                    <Label Text="Manager Corporation" FontSize="Micro"></Label>
+                    </StackLayout>
+                    <BoxView Color="Aqua" WidthRequest="40" HeightRequest="40" CornerRadius="5" HorizontalOptions="EndAndExpand"></BoxView>
+                </StackLayout>
+                
+                <Label Text="September >" TextColor="White" Margin="20"></Label>
+                    
+                    <Grid HeightRequest="90" Margin="30">
+                        <Frame Grid.Column="0" BackgroundColor="White">
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="Hola" TextColor="Gray"></Label>
+                                <Label Text="10" TextColor="Gray" FontSize="Large"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="1" BackgroundColor="Gray">
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="Hola" TextColor="White"></Label>
+                                <Label Text="10" TextColor="White" FontSize="Large"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="2" BackgroundColor="Gray">
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="Hola" TextColor="White"></Label>
+                                <Label Text="10" TextColor="White" FontSize="Large"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="3" BackgroundColor="Gray">
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="Hola" TextColor="White"></Label>
+                                <Label Text="10" TextColor="White" FontSize="Large"></Label>
+                            </StackLayout>
+                        </Frame>
+                        
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Background="white" TranslationY="-10">
+                    <Label Text="TODAY'S TASK" TextColor="Black" FontSize="Large" HorizontalOptions="CenterAndExpand" Margin="20" FontAttributes="Bold"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Frame BackgroundColor="Gray" WidthRequest="50">
+                            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Label Text="10:00" FontAttributes="Bold" TextColor="White"></Label>
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="10"></Image>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Gray" TranslationX="20">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="40"></Image>
+                                <StackLayout Orientation="Vertical">
+                                <Label Text="Meting with CEO" FontAttributes="Bold"></Label>
+                                <Slider Maximum="100" ></Slider>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Frame BackgroundColor="Gray" WidthRequest="50">
+                            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Label Text="10:00" FontAttributes="Bold" TextColor="White"></Label>
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="10"></Image>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Gray" TranslationX="20">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="40"></Image>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Meting with CEO" FontAttributes="Bold"></Label>
+                                    <Slider Maximum="100" ></Slider>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Frame BackgroundColor="Gray" WidthRequest="50">
+                            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Label Text="10:00" FontAttributes="Bold" TextColor="White"></Label>
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="10"></Image>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Gray" TranslationX="20">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="40"></Image>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Meting with CEO" FontAttributes="Bold"></Label>
+                                    <Slider Maximum="100" ></Slider>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Frame BackgroundColor="Gray" WidthRequest="50">
+                            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Label Text="10:00" FontAttributes="Bold" TextColor="White"></Label>
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="10"></Image>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Gray" TranslationX="20">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="https://m.media-amazon.com/images/I/812L5zyAmpL._AC_SL1500_.jpg" HeightRequest="40"></Image>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Meting with CEO" FontAttributes="Bold"></Label>
+                                    <Slider Maximum="100" ></Slider>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
